@@ -1,4 +1,4 @@
-## chickensnakefilms.com
+## ChickenSnakeFilms.com
 
 #### About the business - 
 
@@ -6,7 +6,7 @@
 
 ## More about the project
 
-This project is developed with React JS, you can check the live version of the website here - [chickensnakefilms.com](https://chickensnakefilms.com/).
+This project is developed with React JS, you can check the live version of the website here - [ChickenSnakeFilms.com](https://chickensnakefilms.com/).
 
 The website is hosted on Amazon Web Services, services used ->
 
