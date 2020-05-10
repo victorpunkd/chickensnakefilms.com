@@ -1,0 +1,31 @@
+.portfolioMainConatiner {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.portfolioSection {
+  padding: 1% 5%;
+  text-align: center;
+  color: #ffcd00;
+  font-size: 35px;
+  transition: font-size 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.portfolioSection:hover {
+  color: white;
+  font-size: 40px;
+}
+
+/* .youtubePlayIcon {
+  color: #ffcd00;
+} */
+
+.moreOnYoutube {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  color: gray;
+}

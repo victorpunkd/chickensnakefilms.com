@@ -1,0 +1,171 @@
+.coverMainContainer {
+  /* position: relative; */
+  width: 100%;
+}
+
+.backgroundVideo {
+  /* display: block; */
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  height: 560px;
+  background: rgba(0, 0, 0, 0.5);
+  color: hsl(0, 0%, 95%);
+  width: 100%;
+  padding: 20px;
+}
+
+.topBar {
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Livvic", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  width: 40%;
+}
+
+.logoImage {
+  /* width: 35px;
+  height: 55px; */
+  width: 60px;
+  height: 60px;
+  margin-right: 2%;
+}
+
+.navBar {
+  width: 26%;
+  text-align: left;
+  margin-top: 1%;
+}
+
+.mobileNavBar {
+  width: 100%;
+}
+
+.mobileNavBarContainer {
+  width: 100%;
+  margin-top: 20%;
+  position: absolute;
+}
+
+.logoMobileView {
+  text-align: left;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Livvic", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.hamburgerMenu {
+  margin-top: 4%;
+  text-align: right;
+}
+
+.mobileSocialIcons {
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+.navBarItem {
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 20x;
+  font-weight: 600;
+  margin-right: 5%;
+  transition: color 0.3s;
+}
+
+.navBarItem:hover {
+  color: #ffcd00;
+}
+
+.socialIcons {
+  text-align: right;
+  margin-top: 0%;
+}
+
+.middleContent {
+  margin-top: 8%;
+}
+
+.motto {
+  font-family: "Livvic", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.tagline {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 2%;
+  padding: 1% 5%;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #729500;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .content {
+    position: relative;
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./cover.jpg") center no-repeat scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .motto {
+    font-size: 40px;
+    margin-top: 35%;
+    margin-bottom: 5%;
+  }
+
+  .tagline {
+    font-size: 25px;
+  }
+
+  .button {
+    font-size: 25px;
+    margin-top: 10%;
+  }
+
+  .logoMobileView {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .logoMobileView {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .logoMobileView {
+    font-size: 12px;
+  }
+}

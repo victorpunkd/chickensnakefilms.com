@@ -1,0 +1,11 @@
+.App {
+  width: 100%;
+}
+
+.sectionHeading {
+  font-family: "Livvic", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #729500;
+}

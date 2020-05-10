@@ -1,0 +1,32 @@
+.footerMainSection {
+  background-color: #ffcd00;
+  padding: 5%;
+  text-align: center;
+}
+
+.footerText {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 2%;
+  color: white;
+  font-weight: 600;
+}
+
+.socialIcon {
+  margin-left: 3%;
+  font-size: 30px;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .footerText {
+    font-size: 12px;
+  }
+}
