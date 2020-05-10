@@ -1,3 +1,29 @@
+## chickensnakefilms.com
+
+#### About the business - 
+
+"ChickenSnake, is a video production hub founded by Arnab Moitra, the madman ! Acting as an 'axis' where 50+ handpicked artists are involved, ChickenSnake provides Film & Photography Services for Weddings, Music Videos, Corporate ADs and many more. ​We collaborate with Media houses, Consultants and Brands towards creating one of the most distinctive Films independently. At ChickenSnake, the term 'concept' is taken a little seriously and the thought of 'experiment' - a little curiously ! The blend of both makes it all."
+
+## More about the project
+
+This project is developed with React JS, you can check the live version of the website here - [chickensnakefilms.com](https://chickensnakefilms.com/).
+
+The website is hosted on Amazon Web Services, services used ->
+
+#### S3 to deploye react built code.
+
+#### CloudFront Distributions to deliver fast content service that securely delivers data.
+
+#### Route 53 to maintain the DNS
+
+## How to run the project
+
+1. You need to install node npm globally in your local machine.
+2. Then you can pull this repo to your local machine or you can download the code in your local machine.
+3. Once done open cmd or terminal and navigate to the project folder.
+4. Then run `npm run` it will download all the dependencies mentioned in the package.json file to the current folder.
+5. Once the installation is complete run `npm start` to run the project locally.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
