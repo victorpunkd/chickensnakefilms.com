@@ -6,7 +6,7 @@ export class Cover extends Component {
   constructor() {
     super();
     this.state = {
-      mobileNavBarShow: false
+      mobileNavBarShow: false,
     };
   }
   componentDidMount() {
@@ -29,7 +29,7 @@ export class Cover extends Component {
           id="myVideo"
         >
           <source
-            src="https://chickensnakefilms-files.s3.us-east-1.amazonaws.com/cover.mp4"
+            src="https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/cover.mp4"
             type="video/mp4"
           />
           Your browser does not support HTML5 video.

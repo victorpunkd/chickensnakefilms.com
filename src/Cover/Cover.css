@@ -11,7 +11,7 @@
 .content {
   position: absolute;
   top: 0;
-  height: 560px;
+  height: 82%;
   background: rgba(0, 0, 0, 0.5);
   color: hsl(0, 0%, 95%);
   width: 100%;
